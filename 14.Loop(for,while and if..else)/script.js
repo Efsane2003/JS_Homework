@@ -44,6 +44,22 @@ for(let i=17; i<=30 ; i++){
     }
 }
 console.log("SUM= "+sum2);
+///////////////////////////////// 6 //////////////////////////
+
+let number=0;
+let even=0;
+let odd=0;
+while(number<30){
+    number++;
+    if(number%2==1){
+        odd+=number;  
+    }else{
+        even+=number;
+    }
+}
+console.log("sumodd="+odd);
+console.log("sumeven="+even);
+console.log("subtract="+(even-odd))
 
 //////////// 7.Find of even numbers(e.g: 2,4,6...) in 16. And every number to the power of 2////////////////
 for(i=0; i<=16; i++){
