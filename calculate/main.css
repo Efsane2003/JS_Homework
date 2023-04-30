@@ -23,6 +23,8 @@ h1{
     color: white;
     margin: 15px 0;
     border-radius: 4px;
+    text-align: right;
+    padding: 8px 0;
 }
 .value{
     margin: 5px 0;
