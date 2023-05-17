@@ -1,6 +1,8 @@
 let card = document.querySelector("#card");
 let searchinput = document.querySelector(".form-control");
 let spinner = document.querySelector("#loading");
+let select=document.querySelector("#select")
+let sellectRegion;
 
 function allCard(arr) {
   card.innerHTML = "";
@@ -24,6 +26,7 @@ function allCard(arr) {
 }
 axios("https://restcountries.com/v2/all").then((res) => allCard(res.data));
 // spinner
+
 window.onload = function () {
   card.innerHTML = "";
   spinner.style.display="flex"
@@ -34,6 +37,7 @@ window.onload = function () {
   });
 };
 
+// search
 
 searchinput.addEventListener("input", function (e) {
   spinner.style.display="flex"
@@ -46,3 +50,17 @@ searchinput.addEventListener("input", function (e) {
     allCard(filteredData);
   });
 });
+
+
+
+
+select.addEventListener("change",function(e){
+  axios("https://restcountries.com/v2/all")
+  .then((res)=>{
+    let filteredData = res.data.filter((item) =>
+      item.region.toLocaleLowerCase().includes(e.target.value.toLocaleLowerCase())
+    )
+    allCard(filteredData);
+  })
+ 
+})
