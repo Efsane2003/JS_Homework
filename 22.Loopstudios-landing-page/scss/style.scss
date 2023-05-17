@@ -40,7 +40,7 @@
       }
     }
   }
-  .menu {
+  .menu{
     display: none;
   }
 }
@@ -64,8 +64,27 @@
   .navbar {
     nav {
       display: none;
+      position: absolute;
+      width: 100%;
+      top: 0;
+      left: 0;
+      z-index: 50;
+
+      ul{
+        background-color: yellowgreen;
+        flex-direction: column;
+        justify-content: center;
+        height: 100vh;
+        align-items: center;
+        // text-align: center;
+
+      }
+       &.show{
+        display: block;
+      }
     }
-    .menu {
+   
+    .fa-solid {
       display: block;
       color: #fff;
       font-size: 24px;
