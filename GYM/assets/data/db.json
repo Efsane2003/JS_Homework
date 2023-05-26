@@ -1,0 +1,40 @@
+{
+  "cards": [
+    {
+      "id": 1,
+      "img": "./assets/img/o1.png",
+      "title": "Regular Exercise",
+      "info": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore",
+      "price": 12
+    },
+    {
+      "id": 4,
+      "img": "./assets/img/o1.png",
+      "title": "SBody Building Packages",
+      "info": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore",
+      "price": 6
+    },
+    {
+      "id": 5,
+      "img": "./assets/img/o2.png",
+      "title": "Body Building Packages",
+      "info": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore",
+      "price": "42"
+    },
+    {
+      "id": 6,
+      "img": "./assets/img/o3.png",
+      "title": "Body Building Packages",
+      "info": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore",
+      "price": 52
+    },
+    {
+      "id": 7,
+      "img": "./assets/img/o3.png",
+      "title": "Body Building Packages",
+      "info": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore",
+      "price": 7
+    }
+  ],
+  "favorited": []
+}
