@@ -1,5 +1,5 @@
 #here-section {
-  background-image: url(/assets/img/header-bg.jpg);
+  background-image: url(/GYM/assets/img/header-bg.jpg);
   background-position: center;
   background-size: cover;
   height: 80vh;
@@ -39,6 +39,13 @@
     text-align: center;
     padding: 35px;
     box-shadow: 0 0.9rem 2rem #d97b8c;
+    a{
+      color: #f6214b;
+      transition: all 0.42s ease;
+      &:hover{
+        color: black;
+      }
+    }
   }
 }
 // students section
@@ -79,7 +86,7 @@
 }
 // huge-section
 #huge-section {
-  background-image: url(/assets/img/callto-bg.jpg);
+  background-image: url(/GYM/assets/img/callto-bg.jpg);
   background-position: center;
   background-size: cover;
   position: relative;

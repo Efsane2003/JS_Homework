@@ -1,10 +1,9 @@
 header {
   background-color: #fff;
-        position: fixed;
-    width: 100%;
-    z-index: 6;
+  position: fixed;
+  width: 100%;
+  z-index: 6;
   .header {
- 
     .header-top {
       display: flex;
       justify-content: space-around;
@@ -18,11 +17,9 @@ header {
           font-size: 24px;
         }
       }
-
     }
 
     .header-button {
-
       #menuIcon {
         font-size: 24px;
         display: none;
@@ -80,15 +77,19 @@ header {
             height: 100vh;
             z-index: 5;
             text-align: start;
+            transform: translateX(300px);
+            transition:0.6s;
+            
             li {
               a {
                 color: white;
               }
             }
           }
-
           &.show {
             display: block;
+            transition: 0.6s;
+            
           }
         }
       }

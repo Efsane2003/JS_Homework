@@ -30,6 +30,7 @@ async function getAllCards() {
                 ${el.info}
               </p>
               <i><p>Price:${el.price}</p></i>
+              <a href="details.html?id=${el.id}">VIEW DETAILS</a>
               <div>
               <a ><i class="fa-solid fa-basket-shopping" onclick=favoriteData("${el.id}",this)></i></a>
               <a href="add-edit.html?id=${el.id}"><i class="fa-solid fa-pen-to-square"></i></a>
